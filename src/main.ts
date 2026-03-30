@@ -10,3 +10,4 @@ console.log("Increment:", increment(1));
 console.log("Decrement:", decrement(2));
 console.log("Adds numbers:", addNumbers(1, 2));
 console.log("Adds numbers 2:", addNumbers(2, 2));
+console.log("Adds numbers 3:", addNumbers(3, 3));
