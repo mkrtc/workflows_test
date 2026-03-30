@@ -23,5 +23,5 @@ jobs:
     needs: test
     steps:
       - uses: actions/checkout@v4
-        name: Build docker image
-      - run: docker buildx build -t my_app:${{ github.sha }} . 
+      - name: Build docker image
+        run: docker buildx build -t my_app:${{ github.sha }} . 
